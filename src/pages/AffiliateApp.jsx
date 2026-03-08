@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import {
   Home,
   Megaphone,
@@ -531,6 +532,14 @@ export default function AffiliateApp() {
   return (
     // Removed frame styling, now uses full width on mobile and centered max-width on desktop
     <div className="min-h-screen bg-slate-100 flex justify-center font-sans" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
+      <Helmet>
+        <title>Portal Fundraiser - DonasiOnline</title>
+        <meta name="description" content="Sebarkan tautan kebaikan, pantau traffic donasi, dan dapatkan komisi jariyah Anda secara transparan." />
+        <meta property="og:title" content="Portal Fundraiser - DonasiOnline" />
+        <meta property="og:description" content="Sebarkan tautan kebaikan, pantau traffic donasi, dan dapatkan komisi jariyah Anda secara transparan." />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <style dangerouslySetInnerHTML={{ __html: `.no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }` }} />
 
       <div className="w-full max-w-md h-[100dvh] bg-white relative flex flex-col sm:shadow-2xl overflow-hidden">

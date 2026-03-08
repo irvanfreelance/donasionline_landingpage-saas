@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 import {
   Home,
   Search,
@@ -418,6 +419,14 @@ export default function App() {
 
     return (
       <div className="flex flex-col h-full bg-gradient-to-b from-teal-50/60 to-slate-50 relative">
+        <Helmet>
+          <title>Aplikasi Donatur - DonasiOnline</title>
+          <meta name="description" content="Mulai langkah kebaikan Anda hari ini. Temukan dan dukung berbagai kampanye donasi, zakat, dan qurban terpercaya di DonasiOnline." />
+          <meta property="og:title" content="Aplikasi Donatur - DonasiOnline" />
+          <meta property="og:description" content="Mulai langkah kebaikan Anda hari ini. Temukan dan dukung berbagai kampanye donasi, zakat, dan qurban terpercaya di DonasiOnline." />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+          <meta property="og:type" content="website" />
+        </Helmet>
         <div className="flex-1 overflow-y-auto pb-24 no-scrollbar">
           {/* Header */}
           <div className="bg-white px-5 pt-8 pb-4 flex justify-between items-center sticky top-0 z-20 shadow-sm border-b border-gray-100">

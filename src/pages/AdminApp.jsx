@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import {
   LayoutDashboard, Megaphone, Tags, Users, Receipt, CreditCard, BellRing,
   ShieldCheck, Settings, Plus, Search, Filter, Edit, Trash2, CheckCircle,
@@ -1191,7 +1192,14 @@ export default function AdminPanel() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex font-sans" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
-
+      <Helmet>
+        <title>Admin Dashboard - DonasiOnline</title>
+        <meta name="description" content="Dashboard Command Center Admin DonasiOnline. Kelola kampanye, pantau transaksi real-time, dan atur database donatur Anda dengan mudah." />
+        <meta property="og:title" content="Admin Dashboard - DonasiOnline" />
+        <meta property="og:description" content="Dashboard Command Center Admin DonasiOnline. Kelola kampanye, pantau transaksi real-time, dan atur database donatur Anda dengan mudah." />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       {/* OVERLAY FOR MOBILE SIDEBAR */}
       {isSidebarOpen && (
         <div
