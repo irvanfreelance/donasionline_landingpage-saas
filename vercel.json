@@ -1,6 +1,23 @@
 {
     "cleanUrls": true,
+    "trailingSlash": false,
     "rewrites": [
+        {
+            "source": "/marketing",
+            "destination": "/marketing.html"
+        },
+        {
+            "source": "/demo/donasi",
+            "destination": "/demo/donasi.html"
+        },
+        {
+            "source": "/demo/admin",
+            "destination": "/demo/admin.html"
+        },
+        {
+            "source": "/demo/affiliate",
+            "destination": "/demo/affiliate.html"
+        },
         {
             "source": "/(.*)",
             "destination": "/index.html"
