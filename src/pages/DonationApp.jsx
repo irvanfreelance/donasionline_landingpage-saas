@@ -48,7 +48,7 @@ const campaigns = [
     donors: 1245,
     daysLeft: 12,
     category: "Medis",
-    image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/3845125/pexels-photo-3845125.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Adik Rina (8 tahun) saat ini sedang berjuang melawan penyakit gagal ginjal kronis dan membutuhkan biaya untuk cuci darah rutin serta operasi transplantasi. Setiap bantuan Anda sangat berarti untuk kembalikan senyum Rina.",
     updates: [
       {
@@ -57,7 +57,7 @@ const campaigns = [
         title: "Penyaluran Tahap 1: Biaya Cuci Darah",
         excerpt: "Dana sebesar Rp 15.000.000 telah disalurkan untuk biaya cuci darah Dik Rina...",
         content: "Terima kasih Orang Baik!\n\nDana sebesar Rp 15.000.000 telah disalurkan untuk biaya cuci darah Dik Rina selama 1 bulan ke depan. Kondisi Rina saat ini berangsur stabil namun masih membutuhkan perawatan intensif.\n\nDoakan Rina terus ya agar segera pulih sepenuhnya!",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.pexels.com/photos/2324837/pexels-photo-2324837.jpeg?auto=compress&cs=tinysrgb&w=800"
       }
     ]
   },
@@ -71,7 +71,7 @@ const campaigns = [
     donors: 830,
     daysLeft: 45,
     category: "Pendidikan",
-    image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/8613322/pexels-photo-8613322.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Ratusan anak di desa terpencil NTT terpaksa belajar di bawah tenda terpal yang bocor saat hujan. Mari wujudkan bangunan sekolah yang layak agar mereka bisa meraih cita-citanya.",
     updates: [
       {
@@ -80,7 +80,7 @@ const campaigns = [
         title: "Peletakan Batu Pertama Dimulai!",
         excerpt: "Alhamdulillah, proses pembangunan sekolah darurat mulai berjalan dengan antusiasme warga...",
         content: "Halo Kakak-kakak Baik!\n\nKabar gembira, berkat donasi Anda, peletakan batu pertama untuk sekolah darurat telah dilaksanakan. Warga sangat antusias bergotong royong membersihkan lahan.\n\nTerus dukung kami agar bangunan ini segera berdiri dan anak-anak bisa belajar dengan nyaman.",
-        image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.pexels.com/photos/11844555/pexels-photo-11844555.jpeg?auto=compress&cs=tinysrgb&w=800"
       }
     ]
   },
@@ -94,7 +94,7 @@ const campaigns = [
     donors: 2100,
     daysLeft: 3,
     category: "Bencana",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/6994992/pexels-photo-6994992.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Banjir bandang telah menyapu bersih pemukiman warga. Saat ini kebutuhan paling mendesak adalah makanan siap saji, air bersih, dan selimut.",
     updates: []
   },
@@ -111,7 +111,7 @@ const campaigns = [
     donors: 700,
     daysLeft: 20,
     category: "Panti Asuhan",
-    image: "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/6995201/pexels-photo-6995201.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Banyak saudara kita yang berpuasa namun bingung akan berbuka dengan apa. Mari rutinkan sedekah paket berbuka puasa (Rp 35.000/paket) untuk disalurkan kepada para pekerja harian lepas, pemulung, dan anak jalanan.",
     updates: []
   },
@@ -126,7 +126,7 @@ const campaigns = [
     donors: 340,
     daysLeft: 365,
     category: "Zakat",
-    image: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/4968636/pexels-photo-4968636.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Sucikan harta Anda dengan menunaikan zakat. Dana zakat akan disalurkan kepada 8 asnaf (golongan) yang berhak menerimanya sesuai dengan syariat Islam.",
     updates: []
   },
@@ -145,7 +145,7 @@ const campaigns = [
     donors: 18,
     daysLeft: 45,
     category: "Qurban",
-    image: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/5698305/pexels-photo-5698305.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Qurban kambing (berat 23-25 kg) untuk disalurkan ke desa-desa terpencil yang jarang merasakan nikmatnya daging qurban.",
     updates: []
   },
@@ -164,7 +164,7 @@ const campaigns = [
     donors: 42,
     daysLeft: 45,
     category: "Qurban",
-    image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Ikut patungan 1/7 bagian sapi qurban. Sistem kami akan mengakumulasi hingga 7 bagian terkumpul untuk dikonversi menjadi 1 ekor sapi utuh di lapangan.",
     updates: []
   },
@@ -183,23 +183,44 @@ const campaigns = [
     donors: 3,
     daysLeft: 45,
     category: "Qurban",
-    image: "https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/16399151/pexels-photo-16399151.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Tunaikan qurban 1 ekor sapi utuh yang dapat diatasnamakan untuk 7 orang sekaligus (keluarga/kerabat). Daging akan di distribusikan kepada ratusan dhuafa.",
     updates: []
   },
-  // NEW CAMPAIGN: Infaq (No Target, No Time Limit)
   {
     id: 9,
     title: "Infaq Operasional & Pengembangan Dakwah",
     verified: true,
     urgent: false,
-    hasNoTarget: true,      // Tipe campaign tanpa target
-    hasNoTimeLimit: true,   // Tipe campaign selalu terbuka
+    hasNoTarget: true,
+    hasNoTimeLimit: true,
     collected: 15450000,
     donors: 342,
     category: "Infaq",
-    image: "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/1310102/pexels-photo-1310102.jpeg?auto=compress&cs=tinysrgb&w=800", // Gambar Masjid yang megah
     description: "Salurkan infaq terbaik Anda untuk mendukung operasional harian yayasan dan perluasan program-program dakwah kebaikan yang menjangkau lebih banyak penerima manfaat. Kampanye ini tidak memiliki batas waktu maupun batas donasi.",
+    updates: []
+  },
+  {
+    id: 10,
+    title: "Paket Basmalah (5 Buka Puasa + 8 Kado Yatim)",
+    verified: true,
+    urgent: false,
+    isFixedAmount: true,
+    isBundle: true,
+    packagePrice: 415000,
+    packageName: "Paket Basmalah",
+    target: 500000000,
+    collected: 83000000,
+    donors: 200,
+    daysLeft: 25,
+    category: "Panti Asuhan",
+    image: "https://images.pexels.com/photos/9127752/pexels-photo-9127752.jpeg?auto=compress&cs=tinysrgb&w=800", // Gambar hangat buka puasa bersama/berbagi
+    description: "Maksimalkan pahala Anda dengan program Bundling Kebaikan! Dengan memilih Paket Basmalah, donasi Anda akan otomatis disalurkan untuk:\n\n• 5 Porsi Buka Puasa untuk Pejuang Jalanan\n• 8 Paket Kado Lebaran untuk Anak Yatim\n\nSatu kali transaksi untuk melipatgandakan senyuman mereka di bulan yang penuh berkah ini.",
+    bundleItems: [
+      { name: "Porsi Buka Puasa", baseQty: 5 },
+      { name: "Paket Kado Yatim", baseQty: 8 }
+    ],
     updates: []
   }
 ];
@@ -268,11 +289,6 @@ export default function App() {
 
   // --- COMPONENT DID MOUNT ---
   useEffect(() => {
-    document.title = "Aplikasi Donatur - DonasiOnline";
-    const icon = document.querySelector("link[rel~='icon']");
-    if (icon) {
-      icon.href = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>";
-    }
     const link = document.createElement('link');
     link.href = 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap';
     link.rel = 'stylesheet';
@@ -419,14 +435,6 @@ export default function App() {
 
     return (
       <div className="flex flex-col h-full bg-gradient-to-b from-teal-50/60 to-slate-50 relative">
-        <Helmet>
-          <title>Aplikasi Donatur - DonasiOnline</title>
-          <meta name="description" content="Mulai langkah kebaikan Anda hari ini. Temukan dan dukung berbagai kampanye donasi, zakat, dan qurban terpercaya di DonasiOnline." />
-          <meta property="og:title" content="Aplikasi Donatur - DonasiOnline" />
-          <meta property="og:description" content="Mulai langkah kebaikan Anda hari ini. Temukan dan dukung berbagai kampanye donasi, zakat, dan qurban terpercaya di DonasiOnline." />
-          <meta property="og:image" content="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
-          <meta property="og:type" content="website" />
-        </Helmet>
         <div className="flex-1 overflow-y-auto pb-24 no-scrollbar">
           {/* Header */}
           <div className="bg-white px-5 pt-8 pb-4 flex justify-between items-center sticky top-0 z-20 shadow-sm border-b border-gray-100">
@@ -1134,6 +1142,23 @@ export default function App() {
                     <button key={qty} onClick={() => handlePackageChange(qty, true)} className={`py-2 rounded-lg text-xs font-bold border transition-colors ${packageQty === qty ? 'bg-teal-500 text-white border-teal-500' : 'bg-white text-gray-600 border-gray-200'}`}>{qty} Qty</button>
                   ))}
                 </div>
+
+                {/* Detail Isi Bundling Dinamis */}
+                {camp.isBundle && camp.bundleItems && (
+                  <div className="bg-teal-50 border border-teal-100 rounded-xl p-4 mt-4 shadow-sm">
+                    <p className="text-xs font-bold text-teal-800 mb-3 uppercase tracking-wide flex items-center gap-1.5"><Gift size={14} /> Rincian Kebaikan Anda:</p>
+                    <div className="flex flex-col gap-2.5">
+                      {camp.bundleItems.map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-teal-200 text-teal-800 flex items-center justify-center font-black text-sm shadow-inner shrink-0">
+                            {item.baseQty * packageQty}
+                          </div>
+                          <span className="font-semibold text-teal-900 text-sm leading-tight">{item.name}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </>
           )}
@@ -1298,6 +1323,14 @@ export default function App() {
   return (
     // Memenuhi format Max-Width Desktop/Web dan Fullwidth di Mobile tanpa fake device border
     <div className="min-h-screen bg-gray-100 flex justify-center font-sans" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
+      <Helmet>
+        <title>Aplikasi Donasi - DonasiOnline</title>
+        <meta name="description" content="Aplikasi donasi putih label untuk yayasan Anda. Berdonasi dengan aman, mudah, dan transparan." />
+        <meta property="og:title" content="Aplikasi Donasi - DonasiOnline" />
+        <meta property="og:description" content="Mulai langkah kebaikan Anda hari ini. Aplikasi donasi transparan dan terpercaya." />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <style dangerouslySetInnerHTML={{ __html: `.no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }` }} />
       <div className="w-full max-w-md h-[100dvh] bg-white relative flex flex-col sm:shadow-2xl overflow-hidden">
         {screen === 'home' && renderHome()}
