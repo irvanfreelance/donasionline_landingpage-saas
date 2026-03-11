@@ -117,7 +117,9 @@ export default function AffiliateApp() {
   };
 
   const handleShareClick = (campaign) => {
-    const affiliateLink = `https://pedulisesama.org/c/${campaign.slug}?ref=${affiliateUser.id}`;
+    const timestamp = Date.now();
+    // Gunakan URL donasionline.web.id agar WhatsApp membaca URL Landing Page
+    const affiliateLink = `https://www.donasionline.web.id/demo/donasi?ref=${affiliateUser.id}&t=${timestamp}`;
     setShareModal({ show: true, campaign, link: affiliateLink });
   };
 

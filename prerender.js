@@ -12,22 +12,22 @@ const routes = {
     '/marketing': {
         title: 'SaaS Platform Donasi Online - DonasiOnline',
         description: 'Platform Donasi Online White-Label #1 di Indonesia. Berhenti menumpang, miliki platform donasi Anda sendiri dengan ekosistem lengkap.',
-        image: 'https://images.unsplash.com/photo-1593113589914-075990116daa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'
+        image: 'https://images.unsplash.com/photo-1593113589914-075990116daa?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80'
     },
     '/demo/donasi': {
         title: 'Aplikasi Donasi - DonasiOnline',
         description: 'Aplikasi donasi putih label untuk yayasan Anda. Berdonasi dengan aman, mudah, dan transparan.',
-        image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80'
+        image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80'
     },
     '/demo/admin': {
         title: 'Admin Dashboard - DonasiOnline',
         description: 'Dashboard Command Center Admin DonasiOnline. Kelola kampanye, pantau transaksi real-time, dan atur database donatur Anda dengan mudah.',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80'
     },
     '/demo/affiliate': {
         title: 'Portal Fundraiser - DonasiOnline',
         description: 'Sebarkan tautan kebaikan, pantau traffic donasi, dan dapatkan komisi jariyah Anda secara transparan.',
-        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80'
     }
 };
 
@@ -56,16 +56,21 @@ async function run() {
             .replace(/<meta property="og:image" content="[^"]*">/, `<meta property="og:image" content="${meta.image}">`);
 
         // Tentukan path output
-        const routeDir = path.join(DIST_DIR, route);
-
-        // Buat folder jika belum ada (misal dist/demo/donasi)
-        if (!fs.existsSync(routeDir)) {
-            fs.mkdirSync(routeDir, { recursive: true });
+        let outputPath;
+        if (route === '/') {
+            outputPath = path.join(DIST_DIR, 'index.html');
+        } else {
+            // Vercel cleanUrls: true otomatis membaca file .html yang namanya sama dengan URL path
+            outputPath = path.join(DIST_DIR, `${route}.html`);
+            const routeDir = path.dirname(outputPath);
+            if (!fs.existsSync(routeDir)) {
+                fs.mkdirSync(routeDir, { recursive: true });
+            }
         }
 
-        // Tulis index.html yang baru
-        fs.writeFileSync(path.join(routeDir, 'index.html'), newHTML);
-        console.log(`[Prerender] Saved ${path.join(routeDir, 'index.html')}`);
+        // Tulis HTML yang baru
+        fs.writeFileSync(outputPath, newHTML);
+        console.log(`[Prerender] Saved ${outputPath}`);
     }
 
     console.log('[Prerender] Done generating static pages!');
